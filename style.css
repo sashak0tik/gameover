@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    background: #200ca0;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    width: 200px;
+}
